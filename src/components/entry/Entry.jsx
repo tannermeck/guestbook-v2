@@ -5,8 +5,8 @@ const Entry = ({ entries }) => {
         <section className='entryContainer'>
             {entries.map(entry => (
                     <div className='entry' key={`${entry.name}-${entry.entry}`}>
-                        <h2>{entry.name}</h2>
-                        <h3>{entry.entry}</h3>
+                        <p className='entryName'>-{entry.name}</p>
+                        <p className='entryText'>{entry.entry}</p>
                     </div>
                 ))
             }

@@ -20,7 +20,7 @@ const Body = () => {
         <div className='inputField'>
             <div>
                 {!guest && 
-                <h3>Please sign the guest book!</h3> 
+                <h3>Please Sign the Guestbook!</h3> 
                 }
                 {guest && 
                     <h3>{`Thanks for signing ${guest}`}</h3>
