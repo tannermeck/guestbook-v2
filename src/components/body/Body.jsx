@@ -30,12 +30,12 @@ const Body = () => {
                 {!guest &&
                 <div className='text'>
                     <label>Guest Name</label>
-                    <input type='text' placeholder='Guest Name...' value={name} onChange={(e) => setName(e.target.value)}/>
+                    <input type='text' placeholder='Guest Name...' value={name} onChange={(e) => setName(e.target.value)} required/>
                 </div>
                 }
                 <div className='text'>
                     <label>Guest Entry</label>
-                    <textarea placeholder='Your Entry' value={entry} onChange={(e) => setEntry(e.target.value)}/>
+                    <textarea placeholder='Your Entry' value={entry} onChange={(e) => setEntry(e.target.value)} required/>
                 </div>
                 <div className='buttonAndSignout'>
                     <button>Sign</button>
