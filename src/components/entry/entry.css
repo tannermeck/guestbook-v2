@@ -3,6 +3,7 @@
     flex-wrap:wrap;
     flex-direction: row;
     justify-content: center;
+    margin-top: 20px;
 }
 .entry {
     display: flex;
@@ -24,4 +25,5 @@
 }
 .entryText {
     padding: 5px;
+    font-family: monospace, sans-serif;
 }
