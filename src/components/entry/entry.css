@@ -1,0 +1,10 @@
+.entryContainer {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+.entry {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}

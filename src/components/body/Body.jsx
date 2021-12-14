@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useGuest } from '../../context/GuestContext';
+import Entry from '../entry/Entry';
 import './body.css'
 
 const Body = () => {
@@ -50,6 +51,7 @@ const Body = () => {
                     }
                 </div>
             </form>
+            <Entry entries={entries} />
         </div>
     )
 }
