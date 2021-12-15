@@ -38,7 +38,7 @@ const Body = () => {
                     <textarea placeholder='Your Entry' value={entry} onChange={(e) => setEntry(e.target.value)} required/>
                 </div>
                 <div className='buttonAndSignout'>
-                    <button>Sign</button>
+                    <button aria-label='sign'>Sign</button>
                     {guest && 
                         <button className='signout'
                             onClick={()=> {
