@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should add a header component 1`] = `
+<div>
+  <section
+    class="header"
+  >
+    <div>
+      <img
+        alt="book"
+        src="https://alchemy-guestbook.netlify.app/static/media/guestbook.b8329dbf.png"
+        style="height: 50px;"
+      />
+    </div>
+    <div
+      class="welcome"
+    >
+      <h3>
+        Sign in Friend!
+      </h3>
+    </div>
+  </section>
+</div>
+`;

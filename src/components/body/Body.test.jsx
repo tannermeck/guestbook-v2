@@ -1,4 +1,4 @@
-import {screen, render, findByText } from '@testing-library/react';
+import {screen, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event'
 import { GuestProvider } from '../../context/GuestContext';
 import Body from './Body';
