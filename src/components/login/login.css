@@ -1,0 +1,9 @@
+input {
+    width: 200px;
+    margin: auto;
+}
+fieldset {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
