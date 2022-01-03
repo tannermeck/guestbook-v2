@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the body component 1`] = `
+<div>
+  <div
+    class="inputField"
+  >
+    <div>
+      <h3>
+        Thanks for signing Tanner
+      </h3>
+    </div>
+    <form>
+      <div
+        class="text"
+      >
+        <label>
+          Guest Entry
+        </label>
+        <textarea
+          placeholder="Your Entry"
+          required=""
+        />
+      </div>
+      <div
+        class="buttonAndSignout"
+      >
+        <button
+          aria-label="sign"
+        >
+          Sign
+        </button>
+        <button
+          class="signout"
+        >
+          Not Tanner ?
+        </button>
+      </div>
+    </form>
+    <section
+      class="entryContainer"
+    >
+      <div
+        class="entry"
+      >
+        <p
+          class="entryName"
+        >
+          -
+          Tanner
+        </p>
+        <p
+          class="entryText"
+        >
+          Thanks
+        </p>
+      </div>
+    </section>
+  </div>
+</div>
+`;

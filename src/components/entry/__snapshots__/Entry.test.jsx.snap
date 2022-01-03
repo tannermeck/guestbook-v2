@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render entries 1`] = `
+<div>
+  <section
+    class="entryContainer"
+  >
+    <div
+      class="entry"
+    >
+      <p
+        class="entryName"
+      >
+        -
+        kittle
+      </p>
+      <p
+        class="entryText"
+      >
+        Thank you
+      </p>
+    </div>
+  </section>
+</div>
+`;
