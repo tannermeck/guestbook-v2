@@ -5,14 +5,12 @@ import './body.css'
 
 const Body = () => {
     const {guest, setGuest} = useGuest();
-    const [name, setName] = useState('')
     const [entry, setEntry] = useState('')
     const [entries, setEntries] = useState([])
 
     const handleGuestEntry = (e) => {
         e.preventDefault();
-        setGuest(name)
-        setEntries([...entries, {name, entry}])
+        setEntries([...entries, {guest, entry}])
         setEntry('')
     }
 
@@ -27,12 +25,12 @@ const Body = () => {
                 }
             </div>
             <form onSubmit={handleGuestEntry}>
-                {!guest &&
+                {/* {!guest &&
                 <div className='text'>
                     <label>Guest Name</label>
                     <input type='text' placeholder='Guest Name...' value={name} onChange={(e) => setName(e.target.value)} required/>
                 </div>
-                }
+                } */}
                 <div className='text'>
                     <label>Guest Entry</label>
                     <textarea placeholder='Your Entry' value={entry} onChange={(e) => setEntry(e.target.value)} required/>
@@ -43,7 +41,6 @@ const Body = () => {
                         <button className='signout'
                             onClick={()=> {
                                 setGuest('')
-                                setName('')
                                 setEntry('')
                             }}
                         >
