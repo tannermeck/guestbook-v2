@@ -6,7 +6,7 @@ import style from './login.css';
 export default function Login(){
     const history = useHistory();
     const location = useLocation();
-    const { guest, setGuest } = useGuest();
+    const { setGuest } = useGuest();
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
