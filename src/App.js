@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import Body from './components/body/Body';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from './components/login/Login';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -10,9 +11,9 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/'>
+          <PrivateRoute exact path='/'>
             <Body />
-          </Route>
+          </PrivateRoute>
           <Route exact path='/login'>
             <Login />
           </Route>
