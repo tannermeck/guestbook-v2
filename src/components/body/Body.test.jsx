@@ -3,7 +3,6 @@ import userEvent from '@testing-library/user-event';
 import { GuestProvider } from '../../context/__Mocks__/GuestContext';
 import Body from './Body';
 import { MemoryRouter, Switch, Route } from 'react-router-dom';
-import Login from '../login/Login';
 
 jest.mock('../../context/GuestContext', () => {
     return {
