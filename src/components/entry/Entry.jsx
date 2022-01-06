@@ -4,8 +4,8 @@ const Entry = ({ entries }) => {
     return (
         <section className='entryContainer'>
             {entries.map(entry => (
-                    <div className='entry' key={`${entry.name}-${entry.entry}`}>
-                        <p className='entryName'>-{entry.name}</p>
+                    <div className='entry' key={`${entry.guest}-${entry.entry}`}>
+                        <p className='entryName'>-{entry.guest}</p>
                         <p className='entryText'>{entry.entry}</p>
                     </div>
                 ))

@@ -7,7 +7,7 @@ exports[`should render the body component 1`] = `
   >
     <div>
       <h3>
-        Thanks for signing Tanner
+        Thanks for signing tanner
       </h3>
     </div>
     <form>
@@ -33,7 +33,7 @@ exports[`should render the body component 1`] = `
         <button
           class="signout"
         >
-          Not Tanner ?
+          Not tanner ?
         </button>
       </div>
     </form>
@@ -47,7 +47,7 @@ exports[`should render the body component 1`] = `
           class="entryName"
         >
           -
-          Tanner
+          tanner
         </p>
         <p
           class="entryText"

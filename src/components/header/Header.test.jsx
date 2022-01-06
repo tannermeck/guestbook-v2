@@ -10,4 +10,5 @@ it('should add a header component', async() => {
     const message = await screen.findByText('Sign in Friend!')
     expect(message).toBeInTheDocument();
     expect(container).toMatchSnapshot();
+    
 });
